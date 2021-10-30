@@ -1,3 +1,0 @@
-#!/bin/usr/env bash
-# terminating a process with kill command
-kill "$(pgrep -f "./4-to_infinity_and_beyond")"
