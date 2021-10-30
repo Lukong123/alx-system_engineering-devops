@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# terminating a process with kill command
-kill "$(pgrep -f "./7-highlander")"
