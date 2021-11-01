@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
-# Using the while and if loop to print a text
-x=0
-while [ $x -lt 10 ];
+# prints ten lines of same text except for the ninth line which is different
+
+x=1
+while [ $x -le 10 ]
 do
+    if [ $x -eq 9 ]
+    then
 	echo "Best School"
-	if [ $i == 8 ] ; then
-		echo "Hi"
-	fi
-	let "i++"
+	echo "Hi"
+    else
+	echo "Best School"
+    fi
+    
+x=$((x + 1))  
 done
