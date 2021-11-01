@@ -1,20 +1,25 @@
 #!/usr/bin/env bash
-# displays numbers from 1 to 20, 4 china, 9 japan, 17 italy 
-i=1
-while [ $i -le 20 ]; do
-	echo "$i"
-	case $i in
-		4)
-			echo "bad luck from China"
-			;;
-		9)
-			echo "bad luck from japan"
-			;;
-		17)
-			echo "bad luck from Italy"
-			;;
-		*)
-			;;
-	esac
-	let "i++"
+# prints out 1-20 and displays "bad luck from China", "bad luck from Japan" and "bad luck from Italy" at the 4th, 9th and 17th position respectively.
+
+x=1
+while [ $x -le 20 ]
+do
+    case $x in
+	4)
+	    echo "$x"
+	    echo "bad luck from China"
+	    ;;
+	9)
+	    echo "$x"
+	    echo "bad luck from Japan"
+	    ;;
+	17)
+	    echo "$x"
+	    echo "bad luck from Italy"
+	    ;;
+	*)
+	    echo "$x"
+	    ;;
+    esac 
+x=$((x + 1))  
 done
