@@ -1,14 +1,7 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
 # check if file exits or not
 
-file="./school"
-if [ -e $file ]
-then
-=======
-# bash script that gives you information about the school file
 if [ -e "school"  ] ; then
->>>>>>> parent of f545669... file or not
     echo "school file exists"
    if [ -s "school"  ] ; then
         echo "school file is not empty"
