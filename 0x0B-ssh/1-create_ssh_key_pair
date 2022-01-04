@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# RSA key pair with a defined number of bits for the created key
+ssh-keygen -b 4096 -f school -N betty
