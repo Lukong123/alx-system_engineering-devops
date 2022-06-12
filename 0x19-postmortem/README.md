@@ -1,6 +1,8 @@
 ## Postmortem: Eccomerce  Comapany
-![404 page](img/post404.jpg?raw=true "Title") 
-** Issue Summary **
+![404 page](img/post404.jpg?raw=true "Title")
+
+
+### Issue Summary
 For an e-commerce website, some pages were not responding as they ought to. A very frustrating issue if you plan on ordering the latest Mac book. This affected the users, visitors, and also vendors on the site from `13:00 GMT+1 30 August 2021` and stayed `till 14 GMT+1 31 August 2021`. This problem on the site made some pages inactive by not displaying the content on some products category as a result users and visitors could not add to the cart nor purchase any of those products on the inactive page. On the site of the vendors, their products that were under that category were affected since they could not be seen. This affected and overall 78% of those using the site. This problem was a result of a wrong link. The page was referring to another link that was recently deleted and as a result, the affected pages displayed a 404 error.
 ###  Timeline
 - 13:00 GMT + 1 30 August 2021: Issue detected by a worker of the company, not in the web development sector.
